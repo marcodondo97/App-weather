@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <style>
+        #data {
+
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#data td,
+#data th {
+    border: 1px solid #ddd;
+
+}
+
+
+
+#data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#wrap {
+    margin-top: 10px;
+}
+
+
+.logo {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.imgico {
+
+    vertical-align: middle;
+
+}
+
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <div class="container" id="wrap">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+
+
+                <div class="text-center">
+                    <img src="img/logo1.png" width="15%" class="logo" alt="logo app" />
+                    <h2 class="logo">App meteo</h2>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <h3 class="text-center">Inserisci la città </h3>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-8 offset-sm-2">
+                <form action="javascript:country();">
+                    <div class="input-group mb-3">
+                        <input id="inputcountry" type="text" class="form-control" placeholder="Nome città" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" id="getCity" type="button" onclick=" country();"><img src="img/search.png" width="15px" class="imgico" />Cerca</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <h3 class="text-center">Geolocalizzati</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary" id="getPosition" onclick="getPosition();"><img src="img/position.png" width="15px" class="imgico" />Acquisisci posizione</button>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <br>
+    <div id="title"> </div>
+
+    <div id="tabmeteo" class="table-responsive">
+
+
+
+
+
+        <!--http://api.openweathermap.org/data/2.5/weather?q=Varazze&mode=xml&APPID=4b7ac61000160677ca1fe64b12ee695b&lang=it -->
+        <!--previsone  http://api.openweathermap.org/data/2.5/forecast?q=varazze&mode=xml&APPID=4b7ac61000160677ca1fe64b12ee695b&lang=it -->
+    </div>
+</body>
+
+<script>
+
+
+</script>
+
+</html>
