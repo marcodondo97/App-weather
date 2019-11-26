@@ -10,10 +10,11 @@ Weather forecast is detected thanks to APIs of openweather.org. Link https://ope
 I realized this app with PhoneGap. I used gelocation  and connection status plugin by Apache Cordova.
 All data for weather forecast is loaded through URL that it is formatted data in XML, to display xml i used AJAX and JQuery to allow loading asyncronus resources and for allow an  navigation more fluid.
 
-There are two controls.
--wewe
--wewe
--ddeds
+There are two controls:
+
+- First of all app check data connection: if device is not connected (WIFI or data) it will open alert popup and buttons will be diasbled, if the connection is reactivated the buttons will be reactivated again automatically. 
+- If geo signal is disabled and user press on geolocalization button app will notice that user should to active geo signal.
+
 
 
 <h2> Images </h2>
