@@ -15,7 +15,7 @@ There are two controls:
 - First of all app check data connection: if device is not connected (WIFI or data), it will open alert popup and buttons will be diasbled, if the connection is reactivated the buttons will be reactivated again automatically. 
 - If geo signal is disabled and user press on geolocalization button app will notice that user should active geo signal.
 
-
+To try apk file https://github.com/marcodondo97/App-weather/tree/master/ApkFile
 
 <h2> Images </h2>
 <img src="screenshot/screenshot4.gif" width="20%">
