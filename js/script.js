@@ -92,7 +92,7 @@ function getPosition() {
     var i=0;
     var options = {
         enableHighAccuracy: true,
-        timeout: 3000,
+        timeout: 6000,
         maximumAge: 3600000
     }
     var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
