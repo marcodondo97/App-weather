@@ -1,13 +1,13 @@
 # App-weather
-Hybrid application for Android device realized with Apache Cordova Framework.
+Hybrid application for Android devices realized with Apache Cordova Framework.
 
 <h2>Introduction </h2>
 This is a simple weather app. 
-Through this application you can use geolocalization signal to find your position and detect weather in your city, you can also write your city name in search label.
+Through this application you can use geolocalization signal to find your position and detect weather in your city, you can also write your city name in the search label.
 Weather forecast is detected thanks to APIs of openweather.org. Link https://openweathermap.org/
 
 <h2>Description </h2>
-I realized this app with PhoneGap. I used gelocation  and connection status plugin by Apache Cordova.
+I realized this app with PhoneGap. I used geolocalization  and connection status plugin by Apache Cordova.
 All data for weather forecast is loaded through URL.The data result is formatted in XML. To display xml result i used AJAX and JQuery to allow loading asyncronus resources and to allow an navigation more fluid.
 
 There are two controls:
