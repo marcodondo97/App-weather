@@ -1,5 +1,5 @@
 # App-weather
-Hybrid application for Android devices realized with Apache Cordova Framework.
+Hybrid application forecast weather for android device realized with Apache Cordova Framework
 
 <h2>Introduction </h2>
 This is a simple weather app. 
